@@ -1,38 +1,96 @@
-# MIDI-Hakei-Player
-MIDI波形プレイヤーは、MIDIファイルの再生中に音の波形・音量・ノート名をリアルタイムに可視化できるWindows向けGUIソフトです。  
-シンプルな操作で、視覚的にMIDIの構造を確認したい方におすすめです。
+# 🎹 Simple midi Player
 
-##主な機能
+![version](https://img.shields.io/badge/version-1.6.2-blue.svg)
+![platform](https://img.shields.io/badge/platform-Windows%2010+-lightgrey.svg)
+![license](https://img.shields.io/badge/license-Closed%20Source-red.svg)
+
+**Simple midi Player** は、Windows向けの軽量MIDI再生プレイヤーです。  
+シンプルな操作性と、再生位置の指定・一時停止・再開・楽器名表示など、視覚的かつ実用的な機能を備えています。
+
+---
+
+## 🔧 主な機能
 
 - 🎵 MIDIファイルの読み込みと再生
-- 🔊 波形のリアルタイム表示（約60FPS）
-- 🎚 音量バーで音量の可視化
-- 🎻 使用楽器の自動表示（GM音源対応）
-- 🎨 SoundFont(.sf2)の選択に対応
-- 🪄 GUIアイコンの設定
+- ⏸ 一時停止 → ▶ 再開が可能
+- ⏩ 任意の時間から再生（シーク機能）
+- ⏱ 再生時間をリアルタイム表示（1秒ごとに更新）
+- 🎼 使用楽器（GM音源）を自動で表示
+- 🎨 任意の SoundFont（`.sf2`）を選択可能
+- 🪄 独自アイコン付きの `.exe` 配布（Python不要）
+- 🖥 フルHD対応のGUI（1980×1080）
 
-## 今後追加予定の機能
+---
 
-- ノート表示の改善（現在開発中）
-- 細かい点の修正
-- 「使用楽器」欄での楽器変更
-- デザインの刷新
+## <img width="596" height="473" alt="スクリーンショット 2025-08-08 024526" src="https://github.com/user-attachments/assets/63b276e2-4234-4da0-b13b-2051760e8d31" />
 
-## 対応環境
 
-- Windows 10 以降
-- Python 不要（実行ファイル .exe のみで動作）
+> 📸 Coming Soon!（GUIデザイン更新時に追加予定）
 
-## 公式ホームページ
+---
 
-仮公式ホームページはこちらからどうぞ：
-- [Wix公式サイト](https://kunamaokunamao2828.wixsite.com/my-site-1)
+## 📥 ダウンロード
 
-または GitHub リリースページをご確認ください。
+- 📦 [公式Wixサイト（最新版）](https://kunamaokunamao2828.wixsite.com/my-site-1)
+- 📁 [GitHub Releases](https://github.com/YourRepoName/releases) ← ※公開後にリンク貼ってください
 
-## 実行ファイル名
+---
 
-`MIDI_Hakei_Player.exe`
+## 📂 同梱ファイル
 
-このソフトは誰でもご自由にご利用いただけます。
-改変可・再配布不可
+| ファイル名 | 内容 |
+|------------|------|
+| `MIDI_Hakei_Player.exe` | 実行ファイル（Python不要） |
+| `soundfont.sf2` | サウンドフォント（MIDI音源） |
+| `fluidsynth` | FluidSynthバイナリ一式 |
+| `Piano.ico` | オリジナルアプリアイコン |
+| `README.txt` | オフライン用概要説明 |
+| `LICENSE.txt` | 利用規約・禁止事項など |
+
+---
+
+## 📝 使用方法
+
+1. `MIDI_Hakei_Player.exe` をダブルクリックで起動
+2. メニューから `.mid` ファイルを選択
+3. 再生・停止・一時停止・再開を操作
+4. 必要に応じて `.sf2` を変更（初回は `soundfont.sf2` を利用）
+
+---
+
+## ⚠ 注意事項
+
+- `.sf2` ファイルが無い場合、音が鳴りません。必ず同じフォルダに配置してください。
+- FluidSynth を使用しているため、**PATH に fluidsynth フォルダを追加**する必要がある場合があります。
+
+### ✅ PATHの通し方（Windows）
+
+1. `fluidsynth` フォルダの場所をコピー  
+2. 「環境変数」→「Path」に追加  
+3. コマンドプロンプトやPCを再起動
+
+---
+
+## 📃 ライセンス
+
+このソフトは **無料でご利用いただけます**。  
+ただし、以下の制限があります：
+
+- 🔒 **再配布は禁止**
+- 🛠 改変はOK（ただし配布NG）
+- 商用利用は不可
+- 詳細は [`LICENSE.txt`](./LICENSE.txt) を参照
+
+---
+
+## 📌 作者
+
+**KUNAMAO**  
+開発・公開：2025年  
+ご連絡・要望は Wix または GitHub Issues にてお気軽にどうぞ！
+
+---
+
+🎵 あなたのMIDIライフに、もっと視覚と操作性を。  
+**Simple midi Player** をよろしくお願いします！
+
