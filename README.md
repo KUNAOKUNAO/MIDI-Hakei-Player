@@ -32,7 +32,7 @@
 ## 📥 ダウンロード
 
 - 📦 [公式Wixサイト（最新版）](https://kunamaokunamao2828.wixsite.com/my-site-1)
-- 📁 [GitHub Releases](https://github.com/YourRepoName/releases) ← ※公開後にリンク貼ってください
+- 📁 [GitHub Releases](https://github.com/KUNAOKUNAO/MIDI-Hakei-Player/releases/tag/v1.6.2)
 
 ---
 
