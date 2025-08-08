@@ -23,7 +23,8 @@
 
 ---
 
-## <img width="596" height="473" alt="スクリーンショット 2025-08-08 024526" src="https://github.com/user-attachments/assets/e036521d-68e8-4a94-afc8-5ce8633c578f" />
+## <img width="1239" height="624" alt="スクリーンショット 2025-08-08 223615" src="https://github.com/user-attachments/assets/23ee7dbc-c36d-42b5-97a0-ca9b5529f1a2" />
+
 
 
 
